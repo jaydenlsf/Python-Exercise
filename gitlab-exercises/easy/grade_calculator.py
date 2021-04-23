@@ -12,11 +12,12 @@ grade_dict = {'D': range(40, 50), 'C': range(50, 60), 'B': range(60, 70), 'A': r
 
 for grade, mark in grade_dict.items():
     if avg < 40:
+        print('\nAverage:', round(avg, 2), '%\n')
         print('You failed!')
         break
     elif avg > 100:
         print('Invalid entry(s)!')
         break
     elif avg in mark:
-        print('\nAverage:', round(avg, 2), '\n')
+        print('\nAverage:', round(avg, 2), '%\n')
         print(f'Your grade: {grade}')
