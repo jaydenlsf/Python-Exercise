@@ -12,5 +12,4 @@ def test_factorial_string():
 
 
 def test_factorial_negative():
-    with pytest.raises(Exception):
-        assert fact(-3) == 0
+    assert fact(-3) == "Invalid input"
