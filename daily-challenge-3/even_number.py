@@ -2,6 +2,9 @@ def even_num(start, end):
     even_num_list = []
     even_digits = []
 
+    if start > end:
+        start, end = end, start
+
     for num in range(start, end + 1):
         if num % 2 == 0:
             even_num_list.append(str(num))
