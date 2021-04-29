@@ -7,4 +7,4 @@ def alphasort(string):
     return " ".join(sorted_list)
 
 
-print(alphasort("hello world practice makes perfect and hello world again"))
+print(alphasort("aiming at the target was tough real tough"))
