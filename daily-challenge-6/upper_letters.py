@@ -4,6 +4,3 @@ def upper_letters(string):
         if char.isupper():
             upper.append((char, index))
     return upper
-
-
-print(upper_letters("HeLlO wOrLd!"))
